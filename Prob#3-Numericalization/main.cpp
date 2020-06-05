@@ -71,7 +71,7 @@ class Number
             strncpy(defaultPlatfromNumber[9][3],"    9 ",6);
             strncpy(defaultPlatfromNumber[9][4],"99999 ",6);
         }
-        char getDefaultPlatfromNumberAt(int num,int i,int j)
+        char getDefaultPlatfromNumberAt(int num,int i,int j) // this function will return char at position row i col j of number num
         {
             return defaultPlatfromNumber[num][i][j];
         }
